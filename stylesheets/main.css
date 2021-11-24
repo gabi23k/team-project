@@ -78,11 +78,31 @@
   padding: 5px;
   border-radius: 5px;
   color: rgb(46, 20, 3);
-}
-.btn2 :hover {
-  background-color: rgb(168, 98, 51);
+  cursor: pointer;
 }
 .choice {
   position: absolute;
-  margin-left: 46%;
+  margin-left: 53%;
+}
+form {
+  display: block;
+  margin-top: 2em;
+  text-align: center;
+}
+.contact {
+  position: absolute;
+  width: 100%;
+}
+.title {
+  margin-left: 13%;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.phone,
+.mail,
+.address {
+  list-style-type: none;
+  margin-left: 11%;
+  margin-bottom: 2em;
 }
